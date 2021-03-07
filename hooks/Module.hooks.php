@@ -6,7 +6,7 @@ if (!defined('_PS_VERSION_')) exit;
 trait ModuleHooks
 {
     public function _afterInstall() {
-		InfoModel::createTable();
+	InfoModel::createTable();
         return true;
     }
 
